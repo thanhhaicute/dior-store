@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="https://www.dior.com/static/favicon/apple-touch-icon.png" type="image/x-icon">
     <title>Cart | DIOR</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cart.css">
 </head>
 
 <body>
@@ -40,10 +40,127 @@
 
 
     <section class="cart">
+        <div class="wper">
+            <div class="cart_content">
+                <h1>GIỎ HÀNG</h1>
 
+                <div class="table">
+                    <span>Sản phẩm</span>
+                    <span>Giá</span>
+                    <span>Số lượng</span>
+                    <span>Xóa</span>
+                </div>
+                <hr>
+
+                <div class="wpp_cart">
+                    <span class="name_cart">Dior Pant 2022</span>
+                    <!-- <img class="img_cart" src="images/bag5.png" alt=""> -->
+                    <span class="price_cart">1000$</span>
+                    <span class="number_cart">10</span>
+                    <span class="delete_cart"><i class="fa-solid fa-trash-can"></i></span>
+                </div>
+                <hr>
+                <div class="wpp_cart">
+                    <span class="name_cart">Dior Tee Hologram</span>
+                    <!-- <img class="img_cart" src="images/bag5.png" alt=""> -->
+                    <span class="price_cart">10200$</span>
+                    <span class="number_cart">1</span>
+                    <span class="delete_cart"><i class="fa-solid fa-trash-can"></i></span>
+                </div>
+                <hr>
+                <div class="wpp_cart">
+                    <span class="name_cart">Dior Tee Soul</span>
+                    <!-- <img class="img_cart" src="images/bag5.png" alt=""> -->
+                    <span class="price_cart">5000$</span>
+                    <span class="number_cart">45</span>
+                    <span class="delete_cart"><i class="fa-solid fa-trash-can"></i></span>
+                </div>
+                <hr>
+                <div class="wpp_cart">
+                    <span class="name_cart">Dior Sneaker Baulo</span>
+                    <!-- <img class="img_cart" src="images/bag5.png" alt=""> -->
+                    <span class="price_cart">400$</span>
+                    <span class="number_cart">5</span>
+                    <span class="delete_cart"><i class="fa-solid fa-trash-can"></i></span>
+                </div>
+
+                <div class="plus_cart">
+                    <span>Tổng cộng:</span>
+                    <div class="title_plus">61</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="waper">
+            <div class="submit">
+                <h1>THANH TOÁN</h1>
+                <div class="wapper_submit">
+                    <span>Tổng tiền:</span>
+                    <span class="item">5000$</span>
+                </div>
+                <div class="wper_btn">
+                    <button class="btn_cart">Thanh toán</button>
+                </div>
+
+            </div>
+        </div>
 
     </section>
 
+
+    <section class="payment">
+        <div class="personal_information">
+            <h1>Thông tin nhận hàng</h1>
+
+            <div class="email_info">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="name_info">
+                <input type="text" placeholder="Họ và tên">
+            </div>
+            <div class="phone_info">
+                <input type="text" placeholder="Số điện thoại">
+            </div>
+            <div class="andreas_info">
+                <input type="text" placeholder="Địa chỉ">
+            </div>
+            <div class="seclect_info">
+                <select style="width:34vh;height: 4vh;border-radius: 5px;padding: 10px; margin-top: 10px;">
+                    <option>HCM</option>
+                    <option>Hà nội</option>
+                    <option>Cần thơ</option>
+                    <option>Đồng nai</option>
+                    <option>Hải phòng</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="method">
+            <div class="driving">
+                <h1>Vận chuyển</h1>
+                <div style="color: green;">GoRide <i class="fa-solid fa-check"></i></div>
+                <div style="color: red;">MartShop <i class="fa-solid fa-ban"></i></div>
+            </div>
+            <div>
+                <h1>Thanh Toán</h1>
+                <div class="pay">
+                    <button>
+                        <span>Thanh toán khi nhận hàng</span>
+                    </button>
+                    <hr>
+                    <button>
+                        <span>Thanh toán qua ATM</span>
+                    </button>
+                </div>
+            </div>
+            <div class="return" style="display: flex;justify-content: end;margin-top: 10vh; cursor:pointer;">
+                <span>Quay lại</span>
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+            </div>
+
+        </div>
+    </section>
     <footer>
         <div class="social">
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a><br>
