@@ -334,3 +334,12 @@ footer {
 .line_h:hover {
     background-image: linear-gradient(to right, rgb(160, 108, 108), rgb(148, 82, 82));
 }
+
+.support {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 20%;
+}
